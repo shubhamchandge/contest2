@@ -1,0 +1,69 @@
+*{
+    background-color: black;
+}
+.box {
+    position: absolute;
+    width: 403px;
+    height: 692px;
+    left: 58px;
+    top: 201px;
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    position: absolute;
+    width: 403px;
+    height: 692px;
+    left: 58px;
+    top: 201px;
+    border: 1px solid rgba(105, 23, 23, 0.5);
+    border-radius: 30px;
+}
+
+.imgbox {
+    position: absolute;
+    margin: 10px;
+    width: 383px;
+    height: 383px;
+    border-radius: 20px 20px 0px 0px;
+}
+img{
+    width: 383px;
+    height: 383px; 
+    border-radius: 20px 20px 0px 0px;
+}
+
+.texts {
+    position: absolute;
+    top: 420px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 39px;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+li{
+    list-style: none;
+}
+
+
+
+.Likes {
+    position: absolute;
+    top: 606px;
+    left: 23px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50px;
+
+}
+
+.like-btn {
+    width: 352px;
+    height: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50px;
+    color: rgba(255, 255, 255, 0.5);
+} 
